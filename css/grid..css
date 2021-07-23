@@ -1,0 +1,58 @@
+
+.riadok-1,
+.riadok-2,
+.riadok-3,
+.riadok-4,
+.riadok-5,
+.riadok-6,
+.riadok-7,
+.riadok-8,
+.riadok-9 {
+    float: left;
+}
+
+.riadok-9 {
+    width: 100%;
+}
+
+.riadok-8 {
+    width: 88.8888889%;
+}
+
+.riadok-7 {
+    width: 77.7777777%;
+}
+
+.riadok-6 {
+    width: 66.66666666%;
+}
+
+.riadok-5 {
+    width: 55.55555555%;      
+}
+
+.riadok-4 {
+    width: 44.444444444%;
+}
+
+.riadok-3 {
+    width: 33.3333333333%;
+}
+
+.riadok-2 {
+    width: 22.222222222%;
+}
+
+.riadok-1 {
+    width: 11.111111111%;
+}
+
+.stlpec:before,
+.stlpec:after {
+    content: " ";
+    display: table;
+}
+
+.stlpec:after {
+    clear: both;
+}
